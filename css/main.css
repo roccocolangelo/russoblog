@@ -184,3 +184,125 @@ footer {
         font-size: 1.6rem;
     }
 }
+
+.form-group {
+
+    margin-bottom: 20px;
+
+}
+
+.form-group label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: bold;
+
+}
+
+.form-group input {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+}
+
+.btn-primary {
+
+    background: #0b4f9f;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 20px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+}
+
+.btn-primary:hover {
+
+    background: #1f74d1;
+
+}
+
+.success {
+
+    margin-top: 15px;
+
+    color: green;
+
+}
+
+.error {
+
+    margin-top: 15px;
+
+    color: red;
+
+}
+
+.article-card {
+
+    background: white;
+
+    margin-top: 15px;
+
+    padding: 15px;
+
+    border-radius: 8px;
+
+    border: 1px solid #d7e4f5;
+
+}
+
+.pagination {
+
+    display: flex;
+
+    gap: 8px;
+
+    margin-top: 20px;
+
+    justify-content: center;
+
+}
+
+.page-btn {
+
+    border: 1px solid #0b4f9f;
+
+    background: white;
+
+    color: #0b4f9f;
+
+    padding: 8px 12px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+}
+
+.page-btn:hover {
+
+    background: #eef4ff;
+
+}
+
+.page-btn.active {
+
+    background: #0b4f9f;
+
+    color: white;
+
+}

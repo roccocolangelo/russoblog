@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russoblog Admin</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header class="site-header">
+        <div>
+            <h1 class="site-title">
+                Russoblog Admin
+            </h1>
+
+            <p>
+                Gestione articoli
+            </p>
+        </div>
+    </header>
+
+    <section class="section-box">
+
+        <h3>➕ Nuovo articolo</h3>
+
+        <div class="form-group">
+
+            <label>
+                URL articolo
+            </label>
+
+            <input
+                type="text"
+                id="articleUrl"
+                placeholder="https://..."
+            />
+
+        </div>
+
+        <div class="form-group">
+
+            <label>
+                Categoria
+            </label>
+
+            <input
+                type="text"
+                id="articleCategory"
+                placeholder="Comunità"
+            />
+
+        </div>
+
+        <button
+            class="btn-primary"
+            onclick="saveArticle()">
+
+            Salva articolo
+
+        </button>
+
+        <div id="result"></div>
+
+    </section>
+
+    <section class="section-box">
+
+        <h3>📰 Articoli presenti</h3>
+
+        <div id="articlesList">
+            Caricamento...
+        </div>
+
+    </section>
+
+</div>
+
+    <!-- SCRIPT -->
+    <script src="./js/admin.js"></script>
+
+</body>
+</html>
