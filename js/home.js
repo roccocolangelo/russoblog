@@ -54,8 +54,8 @@ function renderArticles() {
                 <a
                     href="${article.url}"
                     target="_rd">
-                    
-                    div class="article-card">
+
+                    <div class="article-card">
                         <h4>
                             ${article.title}
                         </h4>
