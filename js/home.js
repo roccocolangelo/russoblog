@@ -59,13 +59,14 @@ function renderArticles() {
                     ${article.category || ""}
                 </p>
 
-                ${article.url}
-
-                    Leggi articolo →
+                <a
+                    href
+                    Apri articolo →
 
                 </a>
 
             </div>
+
 
         `).join("");
 
