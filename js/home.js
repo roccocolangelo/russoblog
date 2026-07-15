@@ -49,23 +49,26 @@ function renderArticles() {
     container.innerHTML =
         pageArticles.map(article => `
 
-            <div class="article-card">
-
-                <h4>
-                    ${article.title}
-                </h4>
-
-                <p>
-                    ${article.category || ""}
-                </p>
+            
 
                 <a
-                    href
-                    Apri articolo →
+                    href="${article.url}"
+                    target="_rd">
+                    
+                    div class="article-card">
+                        <h4>
+                            ${article.title}
+                        </h4>
+
+                        <p>
+                            ${article.category || ""}
+                        </p>
+
+                    </div>
 
                 </a>
 
-            </div>
+         
 
 
         `).join("");
